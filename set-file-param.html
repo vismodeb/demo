@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="vismo_dev" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tab and mobile version" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <title>Set file param</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/images/fav.png">
+    
+    <!-- font awesome main css -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <div class="min-wraper">
+      <!-- Start header-area -->
+      <header class="header-area">
+        <div class="container">
+          <div class="header-items">
+            <div class="header-icon">
+              <a href="create-gel.html" class="header-angle"><img src="assets/images/arow-icon.png" alt="icon-img"/></a>
+            </div>
+            <div class="header-logo">
+              <a href="set-file-param.html">Set File Param</a>
+            </div>
+            <div class="header-icon bar-item">
+              <a href="help.html"><img src="assets/images/question-icon.png" alt="icon-img"/></a>
+              <span class="menu-bars"><img src="assets/images/menu-bars.png" alt="icon-img"/></span>
+                <!-- start-Hamburger-menu -->
+                <div class="hamburger-menu">
+                  <div class="menu-close"><i class="fa-solid fa-xmark"></i></div>
+                  <nav class="menu-items">
+                    <ul>
+                      <li><a href="create-gel.html">Create Gel</a></li>
+                      <li><a href="details-gel.html">Detail Gel</a></li>
+                      <li><a href="set-file-param.html">Set Gel Param</a></li>
+                      <li><a href="shapes.html">Shapes</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="setting.html">Setting</a></li>
+                      <li><a href="remote.html">Remote</a></li>
+                      <li><a href="wifi-setting.html">WiFi Set Up</a></li>
+                      <li><a href="download-&-delete.html">Download & Delete</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="calibrate-xy.html">Calibrate XY Axis</a></li>
+                      <li><a href="calibrate-za.html">Calibrate Za Zb Axis</a></li>
+                      <li><a href="calibrate-feed.html">Calibrate Gel Feed</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="help.html">Help</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="terms-conditions.html">T&C</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="error.html">Errors</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <!-- End-Hamburger-menu -->
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End header-area -->
+
+      <div class="midel-wraper">
+        <!-- Start-Shape-area -->
+        <section class="shape-area">
+          <div class="container">
+            <div class="shape-items">
+              <div class="shape-image">
+                <img src="assets/images/shape-one.png" alt="shape-one.png" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End-Shape-area -->
+        <!-- Recoment btn -->
+        <section class="recoment-btn">
+          <div class="container">
+            <div class="recoment-btn-item">
+              <a href="#">Recomended</a>
+              <a class="recoment-active" href="#">Adjust</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Start-range-area -->
+        <section class="range-area">
+          <div class="container">
+            <div class="range-items">
+              <div class="single-range-item">
+                <span><img src="assets/images/circle-round.png" alt="icon-img"/></span>
+                <input id="myinputOne" onchange="showVal1(this.value)" style="accent-color: #161d6f" min="0" max="10" type="range" value="6"/>
+                <div class="badge" id="valBox1">6</div>
+              </div>
+              <div class="single-range-item">
+                <span><img src="assets/images/move-icon.png" alt="icon-img"/></span>
+                <input id="myinputTwo" onchange="showVal2(this.value)" style="accent-color: #161d6f" min="0" max="10" type="range" value="4"/>
+                <div class="badge" id="valBox2">4</div>
+              </div>
+              <div class="single-range-item">
+                <span><img src="assets/images/temperature.png" alt="icon-img"/></span>
+                <input id="myinputThree" onchange="showVal3(this.value)" style="accent-color: #161d6f" min="0" max="10" type="range" value="8"/>
+                <div class="badge" id="valBox3">8</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End-range-area -->
+
+        <!-- quantity-time-area -->
+        <section class="quantity-time-area">
+          <div class="container">
+            <div class="quantity-items">
+              <div class="quantity-btn">
+                <button>Quantity Required</button>
+              </div>
+              <div class="quantity-number">
+                <input type="number" value="250"/>
+              </div>
+            </div>
+            <div class="required-items">
+              <div class="required-btn">
+                <button>Time Required</button>
+              </div>
+              <div class="required-time">
+                <h3>3<span>hrs</span> 40<span>mins</span></h3>
+              </div>
+            </div>
+            <div class="create-share">
+              <a href="#">CREATE SHAPE</a>
+            </div>
+            <div class="lates-date">
+              <p>Last Used : 24 - 06 - 2022</p>
+            </div>
+          </div>
+        </section>
+        
+
+      <!-- Start Mobile-footer-area -->
+      <section class="mobile-footer-min">
+        <div class="mobile-footer">
+          <div class="container">
+            <div class="mobile-footer-items">
+              <div class="single-footer-icon">
+                <a href="create-gel.html"><img src="assets/images/file-icon.png" alt="icon-img"/>
+                  <p>Create</p>
+                </a>
+              </div>
+              <div class="single-footer-icon">
+                <a href="shapes.html">
+                  <img src="assets/images/share-icon.png" alt="icon-img"/>
+                  <p>Shape</p>
+                </a>
+              </div>
+              <div class="single-footer-icon">
+                <a href="setting.html">
+                  <img src="assets/images/gear-icon.png" alt="icon-img"/>
+                  <p>Setting</p>
+                </a>
+              </div>
+              <div class="single-footer-icon">
+                <a href="remote.html">
+                  <img src="assets/images/play-circle.png" alt="icon-img"/>
+                  <p>Remote</p>
+                </a>
+              </div>
+              <div class="single-footer-icon">
+                <a href="contact.html">
+                  <img src="assets/images/call-receiver.png" alt="icon-img"/>
+                  <p>Contact</p>
+                </a >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Mobile-footer-area -->
+    </div>
+
+    <!-- js file -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,351 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+/* max-width 700 */
+@media all and (max-width: 700px) {
+  .midel-wraper {
+    height: calc(100vh - 144px);
+  }
+  .container {
+    padding: 0 2rem;
+  }
+  .shape-icon {
+    right: 20px;
+  }
+  .shape-icon a {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+  .single-range-item input {
+    width: 80%;
+  }
+  .single-footer-icon span {
+    font-size: 3rem;
+  }
+  .single-footer-icon p {
+    font-size: 1.3rem;
+  }
+}
+/* max-width 500 */
+@media all and (max-width: 500px) {
+  .midel-wraper {
+    height: calc(100vh - 123px);
+  }
+  .header-area {
+    padding: 1rem 0;
+  }
+  .shape-icon a {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .shape-icon {
+    right: 8px;
+  }
+  .progress-item .progress {
+    max-width: 60%;
+    height: 20px;
+  }
+  .progress-area {
+    margin: 0;
+  }
+  .progres-button {
+    margin: 2rem 0;
+  }
+
+  .single-range-item input {
+    width: 70%;
+  }
+  .control-single-btn button {
+    font-size: 1.6rem;
+    max-width: 150px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .single-footer-icon span {
+    font-size: 2rem;
+  }
+  .single-range-item span {
+    font-size: 2.5rem;
+  }
+  .single-range-item .badge {
+    width: 33px;
+    height: 33px;
+    font-size: 1.6rem;
+  }
+  .single-range-item {
+    margin: 1.5rem 0;
+  }
+
+  .control-button {
+    margin: 1rem auto;
+  }
+  .reset-btn button {
+    background: transparent;
+    font-size: 1.6rem;
+  }
+  .progres-button span {
+    font-size: 1.6rem;
+    width: 160px;
+    padding: 2.3rem 0;
+  }
+  /* Video Section Start */
+  .video {
+    height: 100%;
+  }
+  .error-btns {
+    padding: 7rem 0 0rem 0;
+  }
+  /* Start Responsive For Shape Page */
+  .shape-img img {
+    width: 8.5rem;
+  }
+  .shape-text p {
+    font-size: 0.9rem;
+  }
+  /* End Responsive For Shape Page */
+
+  /* start Responsive For Download Page */
+  .shape-btn .download-btn > button {
+    width: 15.5rem;
+    font-size: 1.4rem;
+  }
+  /* End Responsive For Download Page */
+
+  /* Start Contact Page */
+  .contact-area h3 {
+    font-size: 1.8rem;
+  }
+  .contact-area input {
+    font-size: 1.6rem;
+    padding: 0.8rem;
+  }
+  .contact-area textarea {
+    font-size: 1.1rem;
+  }
+  .contact-area button {
+    max-width: 15.5rem;
+    font-size: 1.2rem;
+    padding: 1.3rem;
+  }
+  /* End Contact Page */
+
+  /* ssid-separite-item */
+  .ssid-separite-item {
+    grid-gap: 0.5rem;
+  }
+  .password-filed input {
+    max-width: 200px;
+  }
+  .ssid-separite-item {
+    max-width: 200px;
+  }
+  .ssid-separite-item input {
+    letter-spacing: 0.5px;
+    font-size: 1.3rem;
+  }
+  .video-area {
+    padding-bottom: 15rem;
+  }
+  .calibarete-za {
+    margin-top: 3rem;
+  }
+  .calibarete-za-btn {
+    margin-top: 5rem;
+  }
+
+  /* Start Terms & Conditions Area */
+  .terms-area h3 {
+    font-size: 1.8rem;
+  }
+  .terms-btn button {
+    max-width: 13.2rem;
+    padding: 1.5rem;
+    font-size: 1.1rem;
+  }
+  /* End Terms & Conditions Area */
+  .menu-close {
+    right: 15px;
+    top: 15px;
+  }
+}
+
+/* max-width 400 */
+@media all and (max-width: 400px) {
+  .midel-wraper {
+    height: calc(100vh - 105px);
+    /* margin-top: 46px; */
+  }
+  .header-area {
+    padding: 0.5rem 0;
+  }
+  .shape-area {
+    padding: 2.4rem 0;
+  }
+  .shape-image > img {
+    width: 68%;
+  }
+  .progres-button span {
+    font-size: 1.5rem;
+    width: 155px;
+    padding: 2rem 0;
+  }
+  .control-single-btn button {
+    font-size: 1.4rem;
+    max-width: 155px;
+    height: 44px;
+    line-height: 44px;
+  }
+  .reset-btn button {
+    font-size: 1.4rem;
+  }
+  .single-footer-icon p {
+    font-size: 0.8rem;
+  }
+  .menu-items .menu-single-items a {
+    max-width: 100px;
+    height: 100px;
+    line-height: 148px;
+  }
+  .menu-items .menu-single-items a img {
+    max-width: 40px;
+    height: 40px;
+  }
+  .menu-items .menu-single-items a span {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  .logof-btn a {
+    max-width: 155px;
+    padding: 1.2rem 0;
+    font-size: 1.4rem;
+  }
+  .remote-date p {
+    font-size: 1.5rem;
+  }
+  .remote-switch {
+    margin-top: 1rem;
+  }
+  .remote-video {
+    margin-bottom: -2rem;
+  }
+  /* Start Responsive For Shape Page */
+  .single-shape {
+    padding: 1rem 1.2rem;
+  }
+  .shape-img {
+    margin-right: 1rem;
+  }
+  /* End Responsive For Shape Page */
+  
+  /* start Responsive For Download Page */
+  .shape-btn .download-btn > button {
+    width: 12.2rem;
+  }
+  .shape-btn .download-btn > button img {
+    margin-right: 0.5rem;
+    width: 2rem;
+  }
+  /* End Responsive For Download Page */
+  .password-filed input {
+    max-width: 180px;
+  }
+  .ssid-separite-item {
+    max-width: 180px;
+  }
+  .menu-wraper {
+    background: var(--themeColorTwo);
+    width: 100%;
+    height: 100%;
+  }
+  .calibarete-btn a {
+    width: 100px;
+    padding: 0.6rem 0;
+    font-size: 1.4rem;
+  }
+  .calibarete-text h4 {
+    font-size: 1.4rem;
+  }
+  .calibarete-button a {
+    max-width: 140px;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+  }
+  .single-range-item {
+    margin-top: 0 !important;
+  }
+  .calibarete-items-tow {
+    margin-top: -3rem;
+  }
+  /* Start Terms & Conditions Area */
+  .terms-logo a {
+    font-size: 2.2rem;
+    padding: 0.7rem;
+  }
+  /* Start Terms & Conditions Area */
+  .menu-items ul li a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding: 0.1rem 2rem;
+  }
+}
+/* max-width 365 */
+@media all and (max-width: 365px) {
+  .progres-button span {
+    font-size: 1.3rem;
+    width: 130px;
+  }
+  .control-single-btn button {
+    max-width: 135px;
+  }
+  .wifi-device {
+    padding: 0;
+  }
+  .quantity-btn button,
+  .required-btn button {
+    width: 155px;
+    padding: 0.7rem 0;
+  }
+  .required-time h3 {
+    font-size: 1.6rem;
+  }
+  .remote-date p {
+    font-size: 1.2rem;
+  }
+  /* start Responsive For Download Page */
+  .download-logo a {
+    font-size: 1.7rem;
+    padding: 0.5rem 0;
+  }
+  /* End Responsive For Download Page */
+  .password-filed input {
+    max-width: 150px;
+  }
+  .ssid-separite-item {
+    max-width: 150px;
+  }
+  .set-btn {
+    margin-top: 15rem;
+  }
+  .calibarete-za {
+    margin-top: 2rem;
+  }
+  .calibarete-za-btn {
+    margin-top: 3rem;
+  }
+  /* Start Terms & Conditions Area */
+  .terms-logo a {
+    font-size: 1.7rem;
+    padding: 0.5rem;
+  }
+  .terms-btn button {
+    max-width: 10.2rem;
+    padding: 1.2rem;
+  }
+  /* End Terms & Conditions Area */
+}
